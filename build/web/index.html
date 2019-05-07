@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <h2 align="Center">Order Placing</h2>
+        <form action="OrderProcessing" method="post">
+            <center>
+                <label>IceCream Flavour</label>
+                <select name="Flavour">
+                <option value="1">Vanilla</option>
+                <option value="2">StrawBerry,kiwi</option>
+                <option value="3">Mango,Chocolate</option>                
+            </select><br><br>
+            
+            <label>Party Pack Size</label>
+            <select name="PartyPack">
+                <option value="1">250ml</option>
+                <option value="2">500ml</option>
+                <option value="3">1 litres</option>
+                <option value="4">2 litres</option>
+            </select><br><br>
+            <label >Enter the Quantity</label>
+                 <input type="text" name="Quantity" required><br><br>
+                <input type="submit" value="BUY">   
+            </center>
+        </form>
+    </body>
+</html>
